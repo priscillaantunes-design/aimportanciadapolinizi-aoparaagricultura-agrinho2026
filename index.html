@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abelhas e Agricultura | Polinização é Vida</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1 class="logo">🐝 BeeAgro</h1>
+            <ul class="nav-links">
+                <li><a href="#importancia">Importância</a></li>
+                <li><a href="#ameacas">Ameaças</a></li>
+                <li><a href="#cuidados">Como Proteger</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+            <button id="toggleTheme" aria-label="Alternar tema">🌙</button>
+        </nav>
+        <div class="hero container">
+            <h2>Sem Abelhas, Sem Alimento</h2>
+            <p>Os dados não mentem. Veja o impacto real da polinização na sua mesa.</p>
+            <div class="stats" id="statsContainer">
+                <!-- Stats gerados dinamicamente via JS -->
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="importancia">
+            <h2>A Importância das Abelhas na Agricultura</h2>
+            <div class="grid-3" id="importanciaContainer">
+                <!-- Cards gerados dinamicamente via JS -->
+            </div>
+        </section>
+
+        <section id="ameacas">
+            <h2>Principais Ameaças às Abelhas</h2>
+            <div class="filtros">
+                <button class="filtro-btn ativo" data-filtro="todos">Todos</button>
+                <button class="filtro-btn" data-filtro="quimico">Químico</button>
+                <button class="filtro-btn" data-filtro="ambiental">Ambiental</button>
+                <button class="filtro-btn" data-filtro="biologico">Biológico</button>
+            </div>
+            <ul class="lista-ameacas" id="ameacasContainer">
+                <!-- Lista gerada dinamicamente via JS -->
+            </ul>
+        </section>
+
+        <section id="cuidados">
+            <h2>Como Agricultores Podem Proteger as Abelhas</h2>
+            <div class="grid-2" id="cuidadosContainer">
+                <!-- Passos gerados dinamicamente via JS -->
+            </div>
+        </section>
+
+        <section id="quiz">
+            <h2>Teste Rápido: Você Salvaria as Abelhas?</h2>
+            <div id="quizContainer" class="quiz-box">
+                <p id="pergunta"></p>
+                <div id="opcoes"></div>
+                <p id="feedback"></p>
+                <button id="proximaPergunta" class="btn">Próxima</button>
+            </div>
+            <p id="resultadoFinal"></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Proteger as abelhas é um trabalho coletivo. Produtor rural, você é parte essencial dessa solução.</p>
+            <p>&copy; 2026 BeeAgro. Feito para conscientizar.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
