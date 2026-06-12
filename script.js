@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // 1. DADOS CENTRALIZADOS - fácil de atualizar
     const dados = {
         stats: [
-            { numero: 75, sufixo: '%', texto: 'das culturas dependem de polinização' },
-            { numero: 43, prefixo: 'R$ ', sufixo: ' Bi', texto: 'impacto econômico no Brasil/ano' },
-            { numero: 90, sufixo: '%', texto: 'de queda na produção sem abelhas' }
+            { numero: 75, sufixo: '%', texto: 'Das culturas dependem de polinização' },
+            { numero: 43, prefixo: 'R$ ', sufixo: ' Bi', texto: 'Impacto econômico no Brasil/ano' },
+            { numero: 90, sufixo: '%', texto: 'De queda na produção sem abelhas' }
         ],
         importancia: [
             { titulo: 'Polinização', desc: 'Abelhas são responsáveis pela polinização de 70% das principais culturas. Frutas como maçã, melão, café, soja e amêndoas dependem delas.' },
